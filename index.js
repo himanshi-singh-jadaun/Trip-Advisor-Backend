@@ -27,6 +27,6 @@ app.use("/api/pins", pinRoute);
 //     console.log("Backend server is running");
 // })
 
-app.listen(config.port, '100.20.92.101', () => {
+app.listen(80, '100.20.92.101', () => {
     console.log("Backend server is running");
 })
