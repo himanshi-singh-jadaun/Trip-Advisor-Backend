@@ -27,8 +27,6 @@ app.use("/api/pins", pinRoute);
 //     console.log("Backend server is running");
 // })
 
-app.listen(443,[100.20.92.101,
-44.225.181.72,
-44.227.217.144], () => {
+app.listen(443, 100.20.92.101, () => {
     console.log("Backend server is running");
 })
