@@ -23,6 +23,6 @@ mongoose.connect(process.env.MONGO_URL, {
 app.use("/api/users", userRoute);
 app.use("/api/pins", pinRoute);
 
-app.listen(() => {
+app.listen(8800, () => {
     console.log("Backend server is running");
 })
