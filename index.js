@@ -7,6 +7,9 @@ const userRoute = require("./routes/users");
 
 dotenv.config();
 
+const corsOptions = {
+    origin: "https://trip-advisor-frontend.onrender.com", // frontend URI (ReactJS)
+}
 // by doing this we can use everything as json
 app.use(express.json());
 
